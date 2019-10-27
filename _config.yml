@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # URL
-url: https://jihyun1024.github.io # use this url when you develop
+url: "https://jihyun1024.github.io" # use this url when you develop
 baseurl:  # the subpath of your site, e.g. /blog
 
 # Basic
