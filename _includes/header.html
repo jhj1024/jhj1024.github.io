@@ -1,0 +1,58 @@
+<section class="navigation">
+    <div class="nav-container">
+        <div class="brand">
+            <a href="/">Logo</a>
+        </div>
+        <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+                <li>
+                    <a href="{{ '/about' | prepend: site.baseurl }}">About</a>
+                </li>
+                <li>
+                    <a href="{{ '/archive' | prepend: site.baseurl }}">Archive</a>
+                </li>
+                <li>
+                    <a href="{{ '/project' | prepend: site.baseurl }}">Project</a>
+                </li>
+                <li>
+                    <a href="{{ '#' | prepend: site.baseurl }}">Development</a>
+                    <ul class="nav-dropdown">
+                        <li>
+                            <a href="/category/clang">C/C++</a>
+                        </li>
+                        <li>
+                            <a href="/category/python">Python</a>
+                        </li>
+                        <li>
+                            <a href="/category/cs">C#</a>
+                        </li>
+                        <li>
+                            <a href="/category/blog">GithubBlog</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{{ '#' | prepend: site.baseurl }}">Algorithm</a>
+                    <ul class="nav-dropdown">
+                        <li>
+                            <a href="/category/da">자료구조</a>
+                        </li>
+                        <li>
+                            <a href="/category/algorithm">알고리즘</a>
+                        </li>
+                        <li>
+                            <a href="/category/solution">알고리즘문제풀이</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{{'/category/certificate'| prepend: site.baseurl }}">자격증</a>
+                </li>
+                <li>
+                    <a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</section>
